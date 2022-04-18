@@ -1,0 +1,49 @@
+body {
+  font-family: "Copperplate", fantasy;
+}
+
+body {
+  background: blue;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  display: inline;
+  float: left;
+  margin-left: 10%;
+}
+
+.citydiv {
+  border: 1px rgb(255, 182, 193, 570);
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 160px;
+  margin-left: 120px;
+  background-color: rgb(255, 182, 193, 0.47);
+}
+
+h1 {
+  text-align: center;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: coral;
+  color: white;
+  text-align: center;
+}
+
+.headDiv {
+  border: 5px outset pink;
+  background-color: coral;
+  text-align: center;
+}
