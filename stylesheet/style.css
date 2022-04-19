@@ -1,9 +1,6 @@
 body {
-  font-family: "Copperplate", fantasy;
-}
-
-body {
-  background: blue;
+  font-family: "Georgia", serif;
+  font-size: 17px;
 }
 
 ul {
@@ -11,6 +8,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background-color: black;
 }
 
 li {
@@ -32,18 +30,12 @@ h1 {
   text-align: center;
 }
 
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: coral;
-  color: white;
+.headDiv {
+  border: 0px outset pink;
+  background: lightgrey;
   text-align: center;
 }
 
-.headDiv {
-  border: 5px outset pink;
-  background-color: coral;
-  text-align: center;
+body {
+  background-color: rgb(255, 182, 193);
 }
