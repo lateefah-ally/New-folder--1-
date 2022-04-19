@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>news</title>
+    <link rel="stylesheet" href="stylesheet/style.css" />
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    input[type="text"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 11px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: vertical;
+    }
+
+    label {
+      padding: 11px 11px 11px 0;
+      display: inline-block;
+    }
+
+    input[type="submit"] {
+      background-color: #50c878;
+      color: white;
+      padding: 11px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      float: right;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #800020;
+    }
+
+    .container {
+      border-radius: 5px;
+
+      padding: 20px;
+    }
+
+    .top {
+      float: left;
+      width: 25%;
+      margin-top: 0px;
+    }
+
+    .side {
+      float: left;
+      width: 75%;
+      margin-top: 6px;
+    }
+
+    /* Clear  the floats/wordafter the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    @media screen and (max-width: 600px) {
+      .side,
+      .top,
+      input[type="submit"] {
+        width: 100%;
+        margin-top: 1;
+      }
+    }
+
+    h3 {
+      text-align: center;
+    }
+  </style>
+  <body>
+    <nav>
+      <a href="index.html"><li>Homepage</li></a>
+      <a href="eyes.html"><li>Eyes</li></a>
+      <a href="face.html"><li>Face</li></a>
+      <a href="lips.html"><li>Lips</li></a>
+      <a href="brushes.html"><li>Brushes</li></a>
+      <a href="newsletter.html"><li>News</li></a>
+    </nav>
+
+    <h3>Leave us a message</h3>
+
+    <div class="container">
+      <form action="/action_page.php">
+        <div class="row">
+          <div class="top">
+            <label for="finame">First Name</label>
+          </div>
+          <div class="side">
+            <input
+              type="text"
+              id="finame"
+              name="firstname"
+              placeholder="Your name.."
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="top">
+            <label for="laname">Last Name</label>
+          </div>
+          <div class="side">
+            <input
+              type="text"
+              id="laname"
+              name="lastname"
+              placeholder="Your last name.."
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="top">
+            <label for="country">Country:</label>
+          </div>
+          <div class="side">
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+              <option value="russia">Russia</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="top">
+            <label for="subject">Subject:</label>
+          </div>
+          <div class="side">
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="What would you like us to know.."
+              style="height: 200px"
+            ></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
