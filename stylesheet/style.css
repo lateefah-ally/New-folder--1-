@@ -1,41 +1,209 @@
 body {
-  font-family: "Georgia", serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 17px;
 }
 
-ul {
+nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 10px 15px;
   overflow: hidden;
-  background-color: black;
+  background-color: #8c184e;
 }
 
-li {
-  display: inline;
-  float: left;
-  margin-left: 10%;
+.nav-link {
+  display: inline-block;
+
+  margin: 5px 15px;
+
+  color: #d873ad;
 }
 
 .citydiv {
-  border: 1px rgb(255, 182, 193, 570);
+  border: 1px #8c184e;
   margin-top: 100px;
   margin-bottom: 100px;
   margin-right: 160px;
   margin-left: 120px;
-  background-color: rgb(255, 182, 193, 0.47);
+  background-color: #8c184e;
 }
 
 h1 {
   text-align: center;
+  display: inline;
 }
 
 .headDiv {
+  float: right;
   border: 0px outset pink;
   background: lightgrey;
   text-align: center;
+  display: inline;
 }
 
 body {
-  background-color: rgb(255, 182, 193);
+  background-color: #ffffff;
+}
+
+#background-image {
+  background-color: #ffffff;
+}
+
+.side-by-side {
+  float: left;
+  width: 33.3%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+img {
+  border: 5px solid #e0e4dc;
+}
+<!--
+  Red
+  is
+  known
+  for
+  fiery
+  passion.
+  It
+  has
+  been
+  associated
+  with
+  excitement.
+  It
+  also
+  signifies
+  power,
+passion,
+desire. Due to this being a makeup website,
+Red was chosen for the button when you click on it,
+to excite you. a subltle red color was chosen closer to burgundy,
+since
+  red
+  also
+  signifies
+  danger
+  burgundy
+  promotes
+  a
+  feeling
+  of
+  warmth
+  and
+  comfort
+  Pink
+  is
+  known
+  to
+  be
+  a
+  calming
+  color
+  that
+  is
+  associated
+  with
+  love,
+kindness,
+and
+  femininity.
+  It
+  is
+  also
+  known
+  to
+  be
+  euphoric
+  to
+  the
+  human
+  mind.
+  White
+  is
+  known
+  to
+  represent
+  purity.
+  It
+  often
+  symbolizes
+  a
+  new
+  beginning,
+a new space,
+and
+  slate.
+  All
+  these
+  colors
+  represent
+  purely
+  perfectly
+  well
+  for
+  the
+  brand
+  because
+  Red
+  over
+  the
+  Add
+  the
+  cart
+  button,
+showcases excitment,
+that youre about to purchase your product,
+the pink as the background,
+gives
+  you
+  the
+  feeling
+  of
+  calmness
+  and
+  represents
+  feminity.
+  White
+  is
+  accented
+  all
+  over
+  the
+  place
+  to
+  signify
+  a
+  new
+  beginning.
+  When
+  people
+  shop
+  it
+  means
+  they
+  need
+  a
+  new
+  beginning.
+  --
+  > .button {
+  background-color: #8c184e border 1px;
+  color: #d873ad;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: solid;
+
+  font-size: 16px;
+  margin: 7px 2px;
+  cursor: pointer;
+}
+
+header {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 17px;
 }
