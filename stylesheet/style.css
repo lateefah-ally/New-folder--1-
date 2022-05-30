@@ -8,7 +8,7 @@ nav ul {
   margin: 0;
   padding: 10px 15px;
   overflow: hidden;
-  background-color: #8c184e;
+  background-color: black;
 }
 
 .nav-link {
@@ -60,10 +60,10 @@ body {
   display: table;
 }
 img {
-  border: 5px solid #e0e4dc;
+  border: transparent solid #e0e4dc;
 }
-<!--
-  Red
+
+/*  Red
   is
   known
   for
@@ -189,9 +189,8 @@ gives
   need
   a
   new
-  beginning.
-  --
-  > .button {
+  beginning. */
+.button {
   background-color: #8c184e border 1px;
   color: #d873ad;
   padding: 15px 20px;
