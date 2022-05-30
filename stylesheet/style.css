@@ -8,7 +8,11 @@ nav ul {
   margin: 0;
   padding: 10px 15px;
   overflow: hidden;
+<<<<<<< HEAD
   background-color: black;
+=======
+  background-color: #65350f;
+>>>>>>> 92b06b66802dabd0be4413079c069218e920c512
 }
 
 .nav-link {
@@ -16,7 +20,7 @@ nav ul {
 
   margin: 5px 15px;
 
-  color: #d873ad;
+  color: white;
 }
 
 .citydiv {
@@ -25,7 +29,7 @@ nav ul {
   margin-bottom: 100px;
   margin-right: 160px;
   margin-left: 120px;
-  background-color: #8c184e;
+  background-color: #9a7b4f;
 }
 
 h1 {
@@ -42,7 +46,7 @@ h1 {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #9a7b4f;
 }
 
 #background-image {
@@ -62,8 +66,13 @@ body {
 img {
   border: transparent solid #e0e4dc;
 }
+<<<<<<< HEAD
 
 /*  Red
+=======
+/* 
+  Red
+>>>>>>> 92b06b66802dabd0be4413079c069218e920c512
   is
   known
   for
@@ -189,7 +198,14 @@ gives
   need
   a
   new
+<<<<<<< HEAD
   beginning. */
+=======
+  beginning.
+  --
+  */
+
+>>>>>>> 92b06b66802dabd0be4413079c069218e920c512
 .button {
   background-color: #8c184e border 1px;
   color: #d873ad;
