@@ -8,7 +8,7 @@ nav ul {
   margin: 0;
   padding: 10px 15px;
   overflow: hidden;
-  background-color: #8c184e;
+  background-color: #65350f;
 }
 
 .nav-link {
@@ -16,7 +16,7 @@ nav ul {
 
   margin: 5px 15px;
 
-  color: #d873ad;
+  color: white;
 }
 
 .citydiv {
@@ -25,7 +25,7 @@ nav ul {
   margin-bottom: 100px;
   margin-right: 160px;
   margin-left: 120px;
-  background-color: #8c184e;
+  background-color: #9a7b4f;
 }
 
 h1 {
@@ -42,7 +42,7 @@ h1 {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #9a7b4f;
 }
 
 #background-image {
@@ -62,7 +62,7 @@ body {
 img {
   border: 5px solid #e0e4dc;
 }
-<!--
+/* 
   Red
   is
   known
@@ -191,7 +191,9 @@ gives
   new
   beginning.
   --
-  > .button {
+  */
+
+.button {
   background-color: #8c184e border 1px;
   color: #d873ad;
   padding: 15px 20px;
