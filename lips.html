@@ -9,7 +9,49 @@
   </head>
   <style>
     img {
-      border: 5px solid #555;
+      border: transparent solid #555;
+    }
+    *{
+      box-sizing:border-box;
+    }
+
+    .column{
+      float:left;
+      width:33.33%
+      padding 5px;
+    }
+
+    .row::after{
+      content:""
+      clear both;
+      display:table
+    }
+
+    .button {
+      background-color: #8c184e;
+      border: none;
+      color:#d873ad;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: solid;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
+      
+    .button {
+      background-color: white; 
+      color: black; 
+      opacity: 50%;
+      border: 2px solid #8c184e ;
+    }
+
+    .button:hover {
+      background-color: #9a7b4f;
+      color: black;
+      
     }
   </style>
   <body>
@@ -26,6 +68,7 @@
         <ul>
     </nav>
     <section>
+      <div class="column">
       <img
         class="lips-stick"
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA07iiBkl2I_hoI9kFsyGjb-t2eNWo1MlWeeTK2fV4Gb-y99Rwly-hIo5X4z4LftXUlJQ&usqp=CAU"
@@ -33,14 +76,25 @@
       />
       <p>Lilac Spilt</p>
       <p>$5.50</p>
+      <button class="button">Add to cart</button>
+      </div>
+    </section>
 
+
+    <section>
+      <div class="column"></div>
       <img
+        
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXhuG_EaMQtQj20wa0hdHWKsR9I3jM06AGhg&usqp=CAU"
         alt="Nude lip liner pencil"
-      />
+        />
       <p>Tan Tan Lipliner</p>
       <p>$2.50</p>
+      <button class="button">Add to cart</button>
+      </div>
+      
 
+      </section>
       <img
         src="data:image/jpeg;base64,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"
         alt="A white oily substance put into a black lipstick tube, with a lipstick tube cap by its side"

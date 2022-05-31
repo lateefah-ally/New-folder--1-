@@ -8,8 +8,50 @@
     <link rel="stylesheet" href="stylesheet/style.css" />
   </head>
   <style>
-    img {
-      border: 5px solid #555;
+   img{
+     border: transparent solid #555;
+   }
+   *{
+      box-sizing:border-box;
+    }
+
+    .column{
+      float:left;
+      width:33.33%
+      padding 5px;
+    }
+
+    .row::after{
+      content:""
+      clear both;
+      display:table
+    }
+
+    .button {
+      background-color: #8c184e;
+      border: none;
+      color:#d873ad;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: solid;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
+      
+    .button {
+      background-color: white; 
+      color: black; 
+      opacity: 50%;
+      border: 2px solid #65350f ;
+    }
+
+    .button:hover {
+      background-color: #9a7b4f;
+      color: black;
+      
     }
   </style>
   <body>
